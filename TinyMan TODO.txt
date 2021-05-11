@@ -1,0 +1,68 @@
+TODO :
+- Write Code properly
+- Do not enter duplicate url
+- Use Loggers & Application Insights & Try catch
+- Update GIthub & enter code in Github
+- Start Creating UI
+
+- Other Notes are in Book
+
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/aqib1/Url-Shortner-Algorithm/blob/master/urlshotner/src/main/java/urlshotner/URLShortnerHashTechniques.java
+
+https://medium.com/analytics-vidhya/base-62-text-encoding-decoding-b43921c7a954
+
+"7777772E676F6F676C652E636F6D"
+
+https://www.youtube.com/watch?v=_28Kei8hhF0
+
+
+https://localhost:5001/api/v1/urlshortner/getshorturll
+
+
+Scaffold-DbContext "Server=.\SQLExpress;Database=urlshortner;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+dotnet ef dbcontext scaffold "Server=localhost\SQLEXPRESS;Database=urlshortner;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+dotnet ef dbcontext scaffold "Server=localhost\SQLEXPRESS;Database=urlshortner;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models
+
+
+
+
+// MAIN DO NOT EDIT
+dotnet ef dbcontext scaffold "Server=DESKTOP-5B67SHH;Database=urlshortner;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models
+
+
+
+https://localhost:5001/api/v1/000000x
+
+
+"   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)\r\n   
+at URLShortner.Repository.UrlTableRepository.GetLongUrl(String shortUrl) in C:\\Users\\91973\\Desktop\\Personal\\Projects\\
+URL Shortner\\Code\\URLShortner\\URLShortner\\Repository\\UrlTableRepository.cs:line 84"
+
+
+<connectionStrings>
+    <add name="hublisherEntities" connectionString="Data Source=localhost;Initial Catalog=hublisher;Integrated Security=True;" providerName="System.Data.SqlClient" />
+</connectionStrings>
+
+
+optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=urlshortner;Trusted_Connection=True;");
+
+
+"Data Source=localhost;Initial Catalog=urlshortner;Integrated Security=True;" providerName="System.Data.SqlClient" 
+
+
+
+
+"Data Source=localhost;Initial Catalog=hublisher;Integrated Security=True;" providerName="System.Data.SqlClient" 
